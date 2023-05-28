@@ -1,0 +1,205 @@
+<html>
+
+<head>
+    <title>Html na prática</title>
+</head>
+
+<body>
+
+    <h1 id="inicio">Apredendo sobre o HTML</h1>
+    <hr>
+
+    <h2>Índice</h2>
+    <ul>
+        <li><a href="#estrutura">Estrutura básica do HTML</a></li>
+        <li><a href="#tags"> Tags</a></li>
+        <li><a href="#atributos">Atributos básicos das Tags</a></li>
+        <li><a href="#textos">Falando sobre textos</a></li>
+        <li><a href="#listas">Lista ordenada e não ordenada</a></li>
+        <li><a href="#referencias">Referências</a></li>
+
+    </ul>
+
+    <h2 id="estrutura">Estutura básica do HTML</h2>
+    <small><sup><a href="#inicio">Voltar</a></sup></small>
+
+    <p>
+        <font size="7">O</font> HTML (HyperText Markup Language) é a linguagem padrão para a criação de páginas da web.
+        Ele fornece a estrutura básica para organizar o conteúdo em um documento web e é composto por tags, as quais
+        possuem um nome e aparecem entre os sinais '<>'. A estrutura se inicia com o próprio HTML, seguindo por
+            <u>HEAD</u>, <u>TITLE</u> e <u>BODY</u>.
+    </p>
+
+    <h3>Explicando as Tags básicas:</h3>
+    <small><sup><a href="#inicio">Voltar</a></sup></small>
+
+
+    <h5><strong>H<small>TML</small>:</strong> </h5>
+    <p>
+        O elemento html é raiz de todo o documento HTML. Ele envolve todo o conteúdo da página. É aqui que a estrutura
+        da página começa e termina.
+    </p>
+
+    <h5><strong>H<small>EAD</small>:</strong></h5>
+
+    <p> O elemento head é usado para fornecer informações sobre o documento, como o título da página, links para folhas
+        de estilo <abbr title="Cascading Style Sheets">CSS</abbr>, scripts JavaScript e meta informações. O conteúdo
+        dentro da tag < head> não é exibido no navegador.
+    </p>
+
+    <h5><strong>T<small>ITLE</small>:</strong></h5>
+    <p>
+        O elemento <u>title</u> é colocado dentro do
+
+        <head> e define o título da página, que é exibido na barra de título do navegador ou na aba.
+    </p>
+
+    <h5><strong>B<small>ODY</small>:</strong></h5>
+    <p>
+        O elemento body é onde todo o conteúdo visível da página é colocado. Ele engloba o texto, imagens, links,
+        tabelas e
+        outros elementos que os usuários verão ao acessar a página.
+    </p>
+
+    <h2 id="tags">Tags</h2>
+    <small><a href="#inicio">Voltar</a></small>
+
+    <p>
+        A maioria das tags HTML requer uma tag de abertura e uma tag de fechamento correspondente. A tag de abertura é
+        escrita como < nome_da_tag> e a tag de fechamento como < /nome_da_tag>. O conteúdo entre essas tags é afetado
+                por elas.Algumas tags são autonencerráveis, o que significa que não possuem uma tag de fechamento
+                correspondente. Em vez disso, elas são escritas como uma única tag. A tag < i m g> é um exemplo de tag
+                    de autonencerramento. Ela é usada para inserir imagens e não requer uma tag de fechamento separada.
+                    Também é possível colocar uma tag dentro de outra. Isso permite estruturar e organizar o conteúdo
+                    hierarquicamente.
+    </p>
+
+    <h2 id="atributos">Atributos básicos das Tags</h2>
+    <small><a href="#inicio">Voltar</a></small>
+
+    <p> Os atributos são usados para fornecer informações adicionais ou configurar o comportamento de uma tag. Eles são
+        adicionados às tags e fornecem detalhes específicos sobre como uma determinada tag deve ser exibida ou se
+        comportar.
+        Existem muitos atributos disponíveis para diferentes tags no HTML. Aqui estão alguns exemplos comuns:
+    </p>
+    <ul>
+
+        <li>
+            O atributo href é usado na tag < a> (âncora) para especificar o URL de destino do link.
+        </li>
+
+        <li>
+            O atributo src é usado na tag < img> para especificar o caminho da imagem.
+        </li>
+
+        <li>
+            O atributo id é usado para fornecer um identificador único para um elemento.
+        </li>
+    </ul>
+
+    <h2 id="textos">Textos</h2>
+    <small><a href="#inicio">Voltar</a></small>
+
+    <p>
+        No HTML, os textos são parte essencial de uma página da web, pois fornecem informações, instruções e conteúdo
+        para os usuários. Existem várias tags que podem ser usadas para formatar e destacar diferentes partes do texto
+
+    <ul>
+        <li>
+            Parágrafo :
+            A tag < p> é usada para definir um parágrafo de texto. Ela cria uma nova linha antes e depois do texto e é
+                amplamente utilizada para agrupar sentenças e ideias relacionadas.
+        </li>
+
+        Títulos:
+
+        <li> As tags < h1> a < h6> são usadas para definir títulos e subtítulos de diferentes níveis de importância. O <
+                        h1> é o título mais importante, e < h6> é o menos importante.
+        </li>
+
+        <i>Itálico</i>:
+        <li>
+            A tag < i> é usada para enfatizar ou destacar um trecho de texto em itálico. Ela pode ser usada
+                para indicar termos em outros idiomas, citações, títulos de obras, entre outros.
+        </li>
+
+        <li>
+            <u>Sublinhado</u>: A tag < u> é usada para aplicar um sublinhado a um trecho de texto. Ela é frequentemente
+                usada para indicar links não visitados ou enfatizar palavras. Essas são apenas algumas das tags mais
+                comuns
+                usadas para formatação de texto no HTML. Existem muitas outras tags disponíveis para estilizar, destacar
+                e
+                organizar o conteúdo textual em uma página da web. É importante lembrar que o HTML é uma <mark>
+                    linguagem de marcação </mark> e seu principal objetivo é fornecer a estrutura e a semântica do
+                conteúdo, enquanto o estilo e a aparência são geralmente tratados com CSS.
+        </li>
+
+        <li> O elemento < strong> é utilizado em conteúdos que são de "grande importância", incluindo coisas de urgentes
+                (como alertas). Podem ser sentenças que são de grande importância para toda a página, ou, você pode
+                meramente tentar pontuar que algumas palavras são de grande importância, comparado ao conteúdo próximo.
+        </li>
+
+    </ul>
+
+    <h2 id="listas">Listas</h2>
+    <small><a href="#inicio">Voltar</a></small>
+
+    <p>
+        Existem várias maneiras de criar listas para organizar e apresentar informações de forma estruturada. As listas
+        são
+        elementos fundamentais para a estruturação de conteúdo na web. Vou explicar brevemente os três tipos principais
+        de
+        lista no HTML: lista ordenada (ordered list), lista não ordenada (unordered list) e lista de definição
+        (definition
+        list).
+    </p>
+
+    <ul>
+        <li>
+            <h4> Lista Ordenada (Ordered List):</h4>
+            Uma lista ordenada é usada quando os itens precisam ser exibidos em uma sequência específica. Os itens são
+            numerados automaticamente em ordem crescente ou decrescente. Para criar uma lista ordenada, você pode usar a
+            tag < ol>, que significa "ordered list". Cada item da lista é definido dentro de uma tag < li>, que
+                    significa "list item". Exemplo:
+                    <Ol>
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
+                        <li>Item 4</li>
+                    </Ol>
+
+        </li>
+
+        <li>
+            <h4>Lista Não Ordenada (Unordered List):</h4>
+            Uma lista não ordenada é usada quando a ordem dos itens não importa e eles devem ser exibidos com
+            marcadores, geralmente como pontos ou círculos. Para criar uma lista não ordenada, você pode usar a tag <
+                ul>, que significa "unordered list". Assim como na lista ordenada, cada item é definido dentro de uma
+                tag < li>
+                    Nesse caso, os itens da lista são exibidos com marcadores, como pontos ou círculos, sem uma ordem
+                    numérica. Exemplo:
+
+                    <ul>
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
+                        <li>Item 4</li>
+                    </ul>
+        </li>
+
+    </ul>
+
+
+    <h2 id="referencias">Referências</h2>
+    <small><a href="#inicio">Voltar</a></small>
+
+    <ul>
+        <li><a href="https://www.youtube.com/@HcodeBrasil">HcodeBrasil</a></li>
+
+        <li> <a href="https://www.w3schools.com/"> W3schools </a></li>
+
+        </p>
+    </ul>
+</body>
+
+</html>
